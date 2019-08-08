@@ -1,0 +1,311 @@
+<robot name="dynamic_robot">
+    <link name="abadLF">
+        <inertial>
+            <origin xyz="0 0.036 0" rpy="0 0 0"/>
+            <mass value="0.54"/>
+            <inertia ixx="381 * 1e-6" ixy="58 * 1e-6" ixz="0.45 * 1e-6" iyx="58 * 1e-6" iyy="560 * 1e-6" iyz="0.95 * 1e-6" izx="0.45 * 1e-6" izy="0.95 * 1e-6" izz="444 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_abad.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_abad.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="abadRF">
+        <inertial>
+            <origin xyz="0 0.036 0" rpy="0 0 0"/>
+            <mass value="0.54"/>
+            <inertia ixx="381 * 1e-6" ixy="58 * 1e-6" ixz="0.45 * 1e-6" iyx="58 * 1e-6" iyy="560 * 1e-6" iyz="0.95 * 1e-6" izx="0.45 * 1e-6" izy="0.95 * 1e-6" izz="444 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_abad.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_abad.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="abadLB">
+        <inertial>
+            <origin xyz="0 0.036 0" rpy="0 0 0"/>
+            <mass value="0.54"/>
+            <inertia ixx="381 * 1e-6" ixy="58 * 1e-6" ixz="0.45 * 1e-6" iyx="58 * 1e-6" iyy="560 * 1e-6" iyz="0.95 * 1e-6" izx="0.45 * 1e-6" izy="0.95 * 1e-6" izz="444 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_abad.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_abad.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="abadRB">
+        <inertial>
+            <origin xyz="0 0.036 0" rpy="0 0 0"/>
+            <mass value="0.54"/>
+            <inertia ixx="381 * 1e-6" ixy="58 * 1e-6" ixz="0.45 * 1e-6" iyx="58 * 1e-6" iyy="560 * 1e-6" iyz="0.95 * 1e-6" izx="0.45 * 1e-6" izy="0.95 * 1e-6" izz="444 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_abad.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_abad.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="body">
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="3.3"/>
+            <inertia ixx="11253 * 1e-6" ixy="0" ixz="0" iyx="0" iyy="36203 * 1e-6" iyz="0" izx="0" izy="0" izz="42673 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_body.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_body.obj" scale="1 1 1"/>
+             </geometry>
+        </collision>
+    </link>
+    <link name="legLF">
+        <inertial>
+            <origin xyz="-0.02 0.016 0" rpy="0 0 0"/>
+            <mass value="0.634"/>
+            <inertia ixx="408 * 1e-6" ixy="1.5 * 1e-6" ixz="13 * 1e-6" iyx="1.5 * 1e-6" iyy="2103 * 1e-6" iyz="245 * 1e-6" izx="13 * 1e-6" izy="245 * 1e-6" izz="1983 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_upper_link.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_upper_link.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="legRF">
+        <inertial>
+            <origin xyz="-0.02 0.016 0" rpy="0 0 0"/>
+            <mass value="0.634"/>
+            <inertia ixx="408 * 1e-6" ixy="1.5 * 1e-6" ixz="13 * 1e-6" iyx="1.5 * 1e-6" iyy="2103 * 1e-6" iyz="245 * 1e-6" izx="13 * 1e-6" izy="245 * 1e-6" izz="1983 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_upper_link.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_upper_link.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="legLB">
+        <inertial>
+            <origin xyz="-0.02 0.016 0" rpy="0 0 0"/>
+            <mass value="0.634"/>
+            <inertia ixx="408 * 1e-6" ixy="1.5 * 1e-6" ixz="13 * 1e-6" iyx="1.5 * 1e-6" iyy="2103 * 1e-6" iyz="245 * 1e-6" izx="13 * 1e-6" izy="245 * 1e-6" izz="1983 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_upper_link.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_upper_link.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="legRB">
+        <inertial>
+            <origin xyz="-0.02 0.016 0" rpy="0 0 0"/>
+            <mass value="0.634"/>
+            <inertia ixx="408 * 1e-6" ixy="1.5 * 1e-6" ixz="13 * 1e-6" iyx="1.5 * 1e-6" iyy="2103 * 1e-6" iyz="245 * 1e-6" izx="13 * 1e-6" izy="245 * 1e-6" izz="1983 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_upper_link.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_upper_link.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="footLF">
+        <inertial>
+            <origin xyz="0 0 0.061" rpy="0 0 0"/>
+            <mass value="0.064"/>
+            <inertia ixx="245 * 1e-6" ixy="0" ixz="0" iyx="0" iyy="248 * 1e-6" iyz="0" izx="0" izy="0" izz="245 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_lower_link.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_lower_link.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="footRF">
+        <inertial>
+            <origin xyz="0 0 0.061" rpy="0 0 0"/>
+            <mass value="0.064"/>
+            <inertia ixx="245 * 1e-6" ixy="0" ixz="0" iyx="0" iyy="248 * 1e-6" iyz="0" izx="0" izy="0" izz="245 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_lower_link.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_lower_link.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="footLB">
+        <inertial>
+            <origin xyz="0 0 0.061" rpy="0 0 0"/>
+            <mass value="0.064"/>
+            <inertia ixx="245 * 1e-6" ixy="0" ixz="0" iyx="0" iyy="248 * 1e-6" iyz="0" izx="0" izy="0" izz="245 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_lower_link.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_lower_link.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="footRB">
+        <inertial>
+            <origin xyz="0 0 0.061" rpy="0 0 0"/>
+            <mass value="0.064"/>
+            <inertia ixx="245 * 1e-6" ixy="0" ixz="0" iyx="0" iyy="248 * 1e-6" iyz="0" izx="0" izy="0" izz="245 * 1e-6"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_lower_link.obj" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="/MiniCheetah_Model/mini_lower_link.obj" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="bodyLF" type="continuous">
+        <origin xyz="0.125 0.049 0" rpy="-1.57 -1.57 0"/>
+        <parent link="body"/>
+        <child link="abadLF"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <joint name="bodyRF" type="continuous">
+        <origin xyz="0.125 -0.049 0" rpy="-1.57 -1.57 0"/>
+        <parent link="body"/>
+        <child link="abadRF"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <joint name="bodyLB" type="continuous">
+        <origin xyz="-0.125 0.049 0" rpy="1.57 -1.57 0"/>
+        <parent link="body"/>
+        <child link="abadLB"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <joint name="bodyRB" type="continuous">
+        <origin xyz="-0.125 -0.049 0" rpy="1.57 -1.57 0"/>
+        <parent link="body"/>
+        <child link="abadRB"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="hipLF" type="continuous">
+        <parent link="abadLF"/>
+        <child link="legLF"/>
+        <origin xyz="0 0.062 0" rpy="-1.57 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <joint name="hipRF" type="continuous">
+        <parent link="abadRF"/>
+        <child link="legRF"/>
+        <origin xyz="0 0.062 0" rpy="1.57 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <joint name="hipLB" type="continuous">
+        <parent link="abadLB"/>
+        <child link="legLB"/>
+        <origin xyz="0 0.062 0" rpy="1.57 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <joint name="hipRB" type="continuous">
+        <parent link="abadRB"/>
+        <child link="legRB"/>
+        <origin xyz="0 0.062 0" rpy="-1.57 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="kneeLF" type="continuous">
+        <parent link="legLF"/>
+        <child link="footLF"/>
+        <origin xyz="-0.209 0 0" rpy="0 -1.57 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <joint name="kneeRF" type="continuous">
+        <parent link="legRF"/>
+        <child link="footRF"/>
+        <origin xyz="-0.209 0 0" rpy="0 -1.57 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <joint name="kneeLB" type="continuous">
+        <parent link="legLB"/>
+        <child link="footLB"/>
+        <origin xyz="-0.209 0 0" rpy="0 -1.57 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <joint name="kneeRB" type="continuous">
+        <parent link="legRB"/>
+        <child link="footRB"/>
+        <origin xyz="-0.209 0 0" rpy="0 -1.57 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+</robot>
