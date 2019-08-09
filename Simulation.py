@@ -67,7 +67,7 @@ for i in range(12):
         targetPosition=control[i],
         # positionGain=0.1,
         # velocityGain=0.5,
-        force=100
+        force=10
     )
 # End Initialization
 
@@ -94,7 +94,7 @@ for i in range (10000):
         targetPosition=control_F[4],
         # positionGain=0.1,
         # velocityGain=0.5,
-        force=100
+        force=10
     )
     p.setJointMotorControl2(
         bodyIndex=robotId,
@@ -103,7 +103,7 @@ for i in range (10000):
         targetPosition=control_F[5],
         # positionGain=0.1,
         # velocityGain=0.5,
-        force=100
+        force=10
     )
     p.setJointMotorControl2(
         bodyIndex=robotId,
@@ -112,7 +112,7 @@ for i in range (10000):
         targetPosition=control_F[6],
         # positionGain=0.1,
         # velocityGain=0.5,
-        force=200
+        force=10
     )
     p.setJointMotorControl2(
         bodyIndex=robotId,
@@ -121,7 +121,7 @@ for i in range (10000):
         targetPosition=control_F[7],
         # positionGain=0.1,
         # velocityGain=0.5,
-        force=200
+        force=10
     )
     p.stepSimulation()
     t1 = t1 + TimeStep
