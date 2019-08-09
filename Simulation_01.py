@@ -52,8 +52,8 @@ motordir = [halfpi, -halfpi, -halfpi, halfpi,
 
 para = [
     0.2, 0.2, 0.2, 0.2,
-    0.45, 0.45, 0.45, 0.45,
-    1, 1, 1, 1
+    0.2, 0.2, 0.2, 0.2,
+    0.4, 0.4, 0.4, 0.4
 ]
 
 control = np.multiply(motordir, para)
@@ -127,4 +127,5 @@ for i in range (10000):
     t1 = t1 + TimeStep
     t2 = t2 + TimeStep
     time.sleep(TimeStep)
+# End Simulation
 p.disconnect()
