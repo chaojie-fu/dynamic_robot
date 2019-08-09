@@ -262,25 +262,25 @@
     <joint name="hipLF" type="continuous">
         <parent link="abadLF"/>
         <child link="legLF"/>
-        <origin xyz="0 0.062 0" rpy="-1.57 0 0"/>
+        <origin xyz="0 0.062 0" rpy="1.57 0 0"/>
         <axis xyz="0 1 0"/>
     </joint>
     <joint name="hipRF" type="continuous">
         <parent link="abadRF"/>
         <child link="legRF"/>
-        <origin xyz="0 0.062 0" rpy="1.57 0 0"/>
+        <origin xyz="0 0.062 0" rpy="-1.57 0 0"/>
         <axis xyz="0 1 0"/>
     </joint>
     <joint name="hipLB" type="continuous">
         <parent link="abadLB"/>
         <child link="legLB"/>
-        <origin xyz="0 0.062 0" rpy="1.57 0 0"/>
+        <origin xyz="0 0.062 0" rpy="-1.57 0 0"/>
         <axis xyz="0 1 0"/>
     </joint>
     <joint name="hipRB" type="continuous">
         <parent link="abadRB"/>
         <child link="legRB"/>
-        <origin xyz="0 0.062 0" rpy="-1.57 0 0"/>
+        <origin xyz="0 0.062 0" rpy="1.57 0 0"/>
         <axis xyz="0 1 0"/>
     </joint>
 
