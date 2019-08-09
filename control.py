@@ -48,9 +48,9 @@ motordir = [halfpi, -halfpi, -halfpi, halfpi,
 ]
 
 para = [
-    0, 0, 0, 0,
-    0, 0, 0, 0,
-    1, 1, 1, 1,
+    0.2, 0.2, 0.2, 0.2,
+    0.45, 0.45, 0.45, 0.45,
+    1, 1, 1, 1
 ]
 
 control = np.multiply(motordir,para)
