@@ -69,9 +69,9 @@ for i in range(12):
         # velocityGain=0.5,
         force=100
     )
-# # End Initialization
+# End Initialization
 
-# # Start Simulation
+# Start Simulation
 velocity_leg = 1
 velocity_knee = 1
 limit_leg = 0.9
