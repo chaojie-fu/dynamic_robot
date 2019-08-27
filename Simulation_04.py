@@ -102,7 +102,7 @@ for i in range (10000):
     else:
         t = 0
 
-    control_F = np.multiply(motordir, para)*0.4
+    control_F = np.multiply(motordir, para)*0.8
     p.setJointMotorControl2(
         bodyIndex=robotId,
         jointIndex=legnumbering[4],
