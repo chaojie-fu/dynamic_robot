@@ -12,5 +12,5 @@ for i in range(10000):
     p.stepSimulation()
     time.sleep(1./240.)
 cubePos, cubeOrn = p.getBasePositionAndOrientation(boxId)
-print(cubePos,cubeOrn)
+print(cubePos, cubeOrn)
 p.disconnect()
