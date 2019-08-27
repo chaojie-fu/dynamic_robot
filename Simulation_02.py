@@ -4,14 +4,13 @@ import pybullet_data
 import numpy as np
 import math
 physicsClient = p.connect(p.GUI)
-p.setAdditionalSearchPath(pybullet_data.getDataPath())
 p.setGravity(0, 0, -10)
 p.setPhysicsEngineParameter(numSolverIterations=50)
 p.setTimeOut(40000000)
 TimeStep = 1./100
 p.setTimeStep(TimeStep)
 
-planeId = p.loadURDF("plane.urdf")
+planeId = p.loadURDF("Plane_Model/plane.urdf")
 robotStartPos = [0, 0, 0.5]
 robotStartOrientation = p.getQuaternionFromEuler([0,0,0])
 robotId = p.loadURDF("robot.urdf", robotStartPos, robotStartOrientation)
